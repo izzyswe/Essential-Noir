@@ -12,3 +12,23 @@ This is based on Paramount Theme by (owickstrom)[https://github.com/owickstrom/v
 
 
 Highly encourage you to look at these 2 guys theme, as these are the same inspirations
+
+
+### INSTALL USING LAZY
+
+```lua
+return {
+  {
+    "izzyswe/Essential-Noir",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      -- 1. CHOOSE YOUR MODE HERE: "dark" or "light"
+      vim.o.background = "dark" 
+
+      -- 2. Run the setup function to apply the colorscheme
+      require("essential-noir").setup()
+    end,
+  }
+}
+```
