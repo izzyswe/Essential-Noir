@@ -7,7 +7,7 @@
 -- https://github.com/owickstrom/vim-colors-paramount/
 
 -- Heavily inspired by the Zed theme Noir
--- Zed Theme:
+-- Zed Theme: https://github.com/chaseweaver/noir-and-blanc
 
 local M = {}
 
